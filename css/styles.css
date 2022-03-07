@@ -17,7 +17,7 @@ nav ul li {
     font-weight: bold;
 }
 
- footer nav ul {
+footer nav ul {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -26,7 +26,13 @@ nav ul li {
 a{
     text-decoration: none;
 }
-
+p{
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 250%;
+    font-size: larger;
+    color: blue;
+}
 aside,article,.ad{
     margin: 1%;
     display: flex;
@@ -47,6 +53,19 @@ img{
 
 img:hover{
     width: 30%;
+}
+.forma{
+    /*text-align: left;*/
+    line-height: 250%;
+    font-size: larger;
+    color: blue;
+}
+.hif{
+    margin-top: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 250%;
+    color: blue;
 }
 
  /*defino Grid*/
@@ -105,9 +124,9 @@ img:hover{
     .envolve{
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
-        "cabecera   nav"
-        "contenido  side"
-        "pie        pie";
+        "cabecera  nav"
+        "contenido side"
+        "pie   pie";
         padding: 10px;
     }
         nav ul {
